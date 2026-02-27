@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kohei Tokida</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">Kohei Tokida</a>
+      <nav class="nav">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Kohei Tokida</h1>
+      <p class="hero-sub">Software Engineer</p>
+    </div>
+  </section>
+
+  <section id="news" class="section">
+    <div class="container">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li class="news-item">
+          <time datetime="2026-02-27">2026.02.27</time>
+          <span class="news-tag">Info</span>
+          <p>サイトを公開しました。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="contact-lead">お問い合わせは下記フォームからお送りください。</p>
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">メッセージ</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">送信する</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Kohei Tokida</p>
+    </div>
+  </footer>
+</body>
+</html>
